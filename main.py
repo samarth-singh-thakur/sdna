@@ -6,12 +6,9 @@ sys.path.append ('./ir')
 import  ir_detect as ir
 sys.path.append ('./detection')
 import detect
-account_sid = 'YOUR_SID'
-auth_token = 'YOUR_TOKEN'
+account_sid = 'AC054fc9ef48b9b5e98258bce5eca21cb4'
+auth_token = '29e23fdae2616b513fd09503f3ebc93f'
 client = Client(account_sid, auth_token)
-
-
-
 
 def main():
     
@@ -28,7 +25,7 @@ def main():
             call = client.calls.create(
                       url='https://handler.twilio.com/twiml/EHee56782cafb80d205d3e817bf0514a71',
                      from_='+12015483755',
-                     to='+919920650665'
+                     to='+917738809453'
                  )
             print(call.sid)
             if (i%2 == 0):

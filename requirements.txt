@@ -1,0 +1,6 @@
+Clarifai
+Twilio
+matplotlib
+numpy
+pandas
+picamera
